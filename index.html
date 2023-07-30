@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+  <html lang="en">
+    
+ 
+<link rel="stylesheet" href="style.css">
+<head>
+    <title>Student Enrollment Form</title>
+</head>
+
+<body>
+    <h1>Student Enrollment Form</h1>
+    <form id="enrollmentForm">
+        <label for="fullName">Full Name:</label>
+        <input type="text" id="fullName" name="fullName" required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required><br>
+
+        <label for="gender">Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <!-- <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br> -->
+
+        <label for="dateOfBirth">Date of Birth:</label>
+        <input type="date" id="dateOfBirth" name="dateOfBirth" required><br>
+
+          
+        </select><br>
+
+        <input class="sub" type="submit" value="Submit">
+    </form>
+
+    <h2>Previous Submissions</h2>
+    <table id="previousSubmissions">
+        <tr>
+            <th>Full Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Gender</th>
+            <th>Date of Birth</th>
+        </tr>
+    </table>
+
+   
+    <script src="./script.js"></script>
+</body>
+
+</html>
+
